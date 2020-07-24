@@ -1,0 +1,390 @@
+.entry-point {
+  display: inline-block;
+  padding: 10px;
+  width: 320px;
+}
+.mario-chat {
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
+
+.chat-window {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.screen-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+.img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.img-cont {
+  display: inline-block;
+}
+.pd-top-10px {
+  padding-top: 10px;
+}
+.form-control {
+  font-size: 0.75rem;
+}
+* {
+  box-sizing: border-box;
+}
+#mario-chat * {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 14px;
+  position: relative;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #575ed8;
+}
+
+#mario-chat {
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
+
+#chat-window {
+  height: 100%;
+  position: relative;
+  background: #ffffff;
+}
+
+#output {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  padding: 15px;
+  left: 0;
+  padding-bottom: 46px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.composer-area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#composer {
+  border: 1px solid #ccc;
+  width: 80%;
+  float: left;
+}
+
+#output p {
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #555;
+}
+
+.messages {
+  list-style: none;
+  padding: 0;
+}
+
+#feedback p {
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
+}
+
+#output strong {
+  color: #575ed8;
+}
+
+label {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+}
+
+input {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: Nunito;
+  font-size: 16px;
+}
+
+button {
+  background: #575ed8;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  cursor: pointer;
+}
+
+.reciever {
+  float: left;
+  clear: both;
+  margin-bottom: 15px;
+
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px;
+  word-wrap: break-word;
+  word-break: break-word;
+  background-color: #f1f0f0;
+  color: #6e7a89;
+}
+
+.send {
+  width: 25px;
+}
+
+.sender {
+  background-color: #625e94;
+  color: #ffffff;
+  margin-bottom: 15px;
+  float: right;
+  clear: both;
+  border-radius: 6px;
+  padding: 15px;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.list-container {
+  padding-left: 45px;
+  margin-bottom: 20px;
+}
+
+.btn-wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.btn-wrapper button {
+  background-color: #ffffff;
+  color: #625e94;
+  border: 1px solid #625e94;
+  width: auto;
+  padding: 7px 7px;
+  margin: 0 7px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+li.owl-carousel-wrp {
+  background-color: #ffffff;
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 100%;
+}
+
+li.owl-carousel-wrp ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item-wrp {
+  border: 1px solid red;
+  color: red;
+  padding: 7px 15px;
+  float: left;
+  width: 100%;
+}
+
+.pricetag {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.description {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.owl-dots {
+  width: 100%;
+  display: inline-block;
+}
+.owl-nav {
+  position: absolute;
+  top: 0;
+  left: -35px;
+  right: -35px;
+}
+.owl-carousel .owl-nav > button.owl-prev,
+.owl-carousel .owl-nav > button.owl-next {
+  width: 25px !important;
+  background-color: red !important;
+  color: #fff !important;
+  opacity: 1 !important;
+  padding: 10px 10px !important;
+}
+.owl-nav > button.owl-prev {
+  float: left;
+}
+
+.owl-nav > button.owl-next {
+  float: right;
+}
+
+.gateway-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: #ffffff;
+  color: #000;
+  z-index: 9999;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.pl-middle {
+  padding-top: 75px;
+}
+
+.prod-desc-table {
+  width: 300px;
+}
+
+.initiate-payment {
+  display: inline-block;
+  width: 100%;
+}
+
+.prod-header {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.anchor-style,
+.anchor-style:hover,
+.anchor-style:focus {
+  color: #6e7a89;
+}
+
+.messages {
+  width: 100%;
+  display: inline-block;
+}
+
+#send-button {
+  float: left;
+  width: 20%;
+  height: 46px;
+}
+.img-responsive {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.device-box {
+  width: 20vw;
+  float: left;
+  text-align: center;
+  margin: 15px 5px;
+  padding: 7px 7px 10px;
+  border: 1px solid #625e94;
+}
+.device-title {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.08rem;
+}
+.buy-now {
+  background-color: #ffffff;
+    color: #625e94;
+    border: 1px solid #625e94;
+    width: auto;
+    padding: 7px 7px;
+    margin: 0 7px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.btn {
+  text-align: left;
+}
+
+.redbd {
+  border: 1px solid red;
+}
+.err-msg {
+  text-transform: lowercase;
+  padding-left: 3px;
+  margin-top: 5px;
+}
+
+.devices{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.devices img{
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .device-box {
+    width: 40vw;
+  }
+  .device-title {
+    font-size: 0.98rem;
+  }
+}

@@ -1,0 +1,4 @@
+
+EVA:Welcome
+EVA:How may I help you? Please select from the list of options below.
+EVA:(1)	Data Plans	(2)	Devices	(3)	Current Promos	(4)	Contact Us	(5)	General Enquiries	
