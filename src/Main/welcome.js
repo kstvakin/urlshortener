@@ -26,7 +26,6 @@ const Welcome = (props) => {
     let base_url = window.location.origin
       ? window.location.origin + '/'
       : window.location.protocol + '/' + window.location.host + '/';
-    console.log(base_url)
 
     fetch('/', {
       method: 'POST',
